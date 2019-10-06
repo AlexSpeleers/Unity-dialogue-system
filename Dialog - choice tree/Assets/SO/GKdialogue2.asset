@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed822964c161fdf4fad4fa2b8032220a, type: 3}
   m_Name: GKdialogue2
   m_EditorClassIdentifier: 
-  npc: {fileID: 0}
-  lines: []
+  npc: {fileID: 11400000, guid: eff07a2a9a0650440a4240db646f844a, type: 2}
+  lines:
+  - text: "Be careful u can fall into \nthe infinity"
+  - text: U can jump on the wall edge and fall down on the other side.

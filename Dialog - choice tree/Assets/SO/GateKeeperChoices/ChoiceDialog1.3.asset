@@ -10,6 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4c59c661bdfbe2a4dad4eecf4c738702, type: 3}
-  m_Name: ChoiceDialog2
+  m_Name: ChoiceDialog1.3
   m_EditorClassIdentifier: 
-  choices: []
+  choices:
+  - choiceText: Cruma Tower
+    nextDialogue: {fileID: 11400000, guid: fdbe11b97d37c9346a673d06fb6ad526, type: 2}
+  - choiceText: Velia
+    nextDialogue: {fileID: 11400000, guid: fdbe11b97d37c9346a673d06fb6ad526, type: 2}
+  - choiceText: Insomnia Kingdom
+    nextDialogue: {fileID: 11400000, guid: fdbe11b97d37c9346a673d06fb6ad526, type: 2}

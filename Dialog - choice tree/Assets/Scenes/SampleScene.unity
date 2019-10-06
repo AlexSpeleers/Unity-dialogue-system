@@ -17495,32 +17495,6 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 199733200208842270}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &2123841317 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2123841317, guid: 547b5a36043c11547acb873010c731d4,
-    type: 3}
-  m_PrefabInstance: {fileID: 199733200208842270}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2123841318
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2123841317}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d08f8b4a73a80740be5aa5dd6fea225, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  choice:
-    choiceText: 
-    nextDialogue: {fileID: 0}
-  dialogueChangeEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: DialogueChangeEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
 --- !u!1001 &199733200208842270
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17644,7 +17618,7 @@ PrefabInstance:
       objectReference: {fileID: 346590544}
     - target: {fileID: 2123841317, guid: 547b5a36043c11547acb873010c731d4, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 547b5a36043c11547acb873010c731d4, type: 3}

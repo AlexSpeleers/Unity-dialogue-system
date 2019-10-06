@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4c59c661bdfbe2a4dad4eecf4c738702, type: 3}
-  m_Name: ChoiceDialog1.1
+  m_Name: ChoiceDialog1
   m_EditorClassIdentifier: 
   choices:
   - choiceText: 'Hi, I Want to know
 
       ur name.'
-    nextDialogue: {fileID: 0}
-  - choiceText: "Oh, I'm just wandering around. \ndon't mind."
-    nextDialogue: {fileID: 0}
+    nextDialogue: {fileID: 11400000, guid: c23c3d61359065f4582ed719bd86001b, type: 2}
+  - choiceText: "Oh, I'm just wandering around, \ndon't mind."
+    nextDialogue: {fileID: 11400000, guid: 883b9eccb58ca25438306b99d10a7beb, type: 2}
   - choiceText: Can u relocate me?
     nextDialogue: {fileID: 11400000, guid: fdbe11b97d37c9346a673d06fb6ad526, type: 2}

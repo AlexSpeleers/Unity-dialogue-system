@@ -12,4 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c59c661bdfbe2a4dad4eecf4c738702, type: 3}
   m_Name: ChoiceDialog1.2
   m_EditorClassIdentifier: 
-  choices: []
+  choices:
+  - choiceText: How?
+    nextDialogue: {fileID: 11400000, guid: 883b9eccb58ca25438306b99d10a7beb, type: 2}
+  - choiceText: How?
+    nextDialogue: {fileID: 11400000, guid: 883b9eccb58ca25438306b99d10a7beb, type: 2}
