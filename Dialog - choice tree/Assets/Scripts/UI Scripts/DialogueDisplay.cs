@@ -48,7 +48,7 @@ public class DialogueDisplay : MonoBehaviour
             }
             catch (NullReferenceException)
             {
-                //ignore exeption when in line 31 when player leave trigger zone
+                //ignore exeption in line 36 when player leave trigger zone
             }
         }
     }
